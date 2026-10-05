@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Photo Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>My Photo Gallery</h1>
+
+    <div id="image" aria-live="polite">
+        Hover over an image below to display here.
+    </div>
+
+    <div class="gallery">
+        <img class="preview"
+             src="images/photo1.webp"
+             alt="A mountain lake surrounded by green hills and trees"
+             onmouseover="upDate(this)"
+             onmouseleave="undo()"
+             onfocus="upDate(this)"
+             onblur="undo()">
+
+        <img class="preview"
+             src="images/photo2.jpg"
+             alt="A tropical beach with clear blue water and palm trees"
+             onmouseover="upDate(this)"
+             onmouseleave="undo()"
+             onfocus="upDate(this)"
+             onblur="undo()">
+
+        <img class="preview"
+             src="images/photo3.jpg"
+             alt="A city skyline at night with a brightly lit tower"
+             onmouseover="upDate(this)"
+             onmouseleave="undo()"
+             onfocus="upDate(this)"
+             onblur="undo()">
+
+        <img class="preview"
+             src="images/photo4.webp"
+             alt="A green forest with tall trees"
+             onmouseover="upDate(this)"
+             onmouseleave="undo()"
+             onfocus="upDate(this)"
+             onblur="undo()">
+
+        <img class="preview"
+             src="images/photo5.avif"
+             alt="A calm lake with hills and houses along the shore"
+             onmouseover="upDate(this)"
+             onmouseleave="undo()"
+             onfocus="upDate(this)"
+             onblur="undo()">
+
+        <img class="preview"
+             src="images/photo6.jpg"
+             alt="A beach at sunset with colorful clouds over the ocean"
+             onmouseover="upDate(this)"
+             onmouseleave="undo()"
+             onfocus="upDate(this)"
+             onblur="undo()">
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
